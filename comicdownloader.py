@@ -120,7 +120,9 @@ def __main__():
 			if url not in links: 
 				links.append(url)
 			else : print "Already in the list. Skipping...\n"
-	if links==[]: print "You didn't enter any link.Terminating..."
+	if links==[]: 
+		print "You didn't enter any link.Terminating..."
+		return 0
 	creator()
 	for i in links:
 		os.system(COMMAND1+'main.html'+COMMAND2+COMMAND3+getCookies()[0]+'; cf_clearance='+getCookies()[1]+COMMAND4+i)
