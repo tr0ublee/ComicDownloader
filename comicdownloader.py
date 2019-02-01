@@ -1,7 +1,6 @@
 import os
 import requests
 import sqlite3 
-import time
 import getpass
 #WRITTEN BY tr0uble
 
