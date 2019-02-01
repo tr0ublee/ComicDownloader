@@ -1,5 +1,4 @@
 import os
-import requests
 import sqlite3 
 import getpass
 #WRITTEN BY tr0uble
