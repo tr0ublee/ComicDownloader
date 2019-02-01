@@ -1,6 +1,6 @@
 # ComicDownloader
 A small Python script that allows you to download comicbooks.Works with Python 2.7 and Linux.
-You need to visit the website to get Cookies with Firefox.
+You need to visit the website to get Cookies with Firefox.Run it on your Desktop! 
 
 Required Python2.7 packages : 
   1-os
