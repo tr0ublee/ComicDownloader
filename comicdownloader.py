@@ -184,7 +184,7 @@ def __main__():
 
 			if wholeLinks==[] : 
 				break
-			wholeLinks=wholeLinks[-1:]
+			wholeLinks.reverse()
 			for j in wholeLinks:
 				print "Downloading index"
 				os.system(COMMAND1+'main.html'+COMMAND2+COMMAND3+cfduid+'; cf_clearance='+cf_clearance+COMMAND4+j)
