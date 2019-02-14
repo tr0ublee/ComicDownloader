@@ -9,7 +9,7 @@ from time import sleep
 #------------------------------------------------------------------------------------------
 									#MACROS
 USER=getpass.getuser()
-FIREFOX_COOKIES='/home/'+USER+'/.mozilla/firefox/pei4xq4c.default/cookies.sqlite'
+FIREFOX_COOKIES='/home/'+USER+'/.mozilla/firefox/*.default/cookies.sqlite'
 COMMAND1='wget -q -O /home/'+USER+'/Desktop/RawFiles/' 
 COMMAND2=' -U "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0" '
 COMMAND3='--header="Accept: text/html" --header="Cookie: __cfduid='
