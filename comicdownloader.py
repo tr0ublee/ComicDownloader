@@ -2,7 +2,7 @@ import os
 import sqlite3 
 import getpass
 from time import sleep
-#WRITTEN BY tr0uble
+# @author : tr0uble
 
 
 
